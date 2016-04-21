@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: com.hazelcast.hazelcast-client
+Bundle-Name: com.hazelcast.hazelcast-client
+Bundle-Version: 1.9.2.2
+DynamicImport-Package: javax.transaction;version="1.1",javax.transacti
+ on.xa;version="1.1",*
+Bundle-ClassPath: hazelcast-client-1.9.2.2.jar
+Export-Package: com.hazelcast.client.impl;version=1.9.2.2,com.hazelcas
+ t.client.cluster;version=1.9.2.2,com.hazelcast.client.examples;versio
+ n=1.9.2.2,com.hazelcast.client;version=1.9.2.2

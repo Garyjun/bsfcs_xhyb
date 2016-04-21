@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: javax.servlet.jstl
+Bundle-Name: javax.servlet.jstl
+Bundle-Version: 1.1.2
+DynamicImport-Package: javax.transaction;version="1.1",javax.transacti
+ on.xa;version="1.1",*
+Bundle-ClassPath: jstl-1.1.2.jar
+Export-Package: javax.servlet.jsp.jstl.tlv;version=1.1.2,javax.servlet
+ .jsp.jstl.core;version=1.1.2,javax.servlet.jsp.jstl.sql;version=1.1.2
+ ,javax.servlet.jsp.jstl.fmt;version=1.1.2

@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: org.apache.ode.ode-bpel-epr
+Bundle-Name: org.apache.ode.ode-bpel-epr
+Bundle-Version: 1.3.2
+DynamicImport-Package: javax.transaction;version="1.1",javax.transacti
+ on.xa;version="1.1",*
+Bundle-ClassPath: ode-bpel-epr-1.3.2.jar
+Export-Package: org.apache.ode.il;version=1.3.2,org.apache.ode.bpel.ep
+ r;version=1.3.2,org.apache.ode.il.dbutil;version=1.3.2,org.apache.ode
+ .bpel.common.evt;version=1.3.2,org.apache.ode.il.config;version=1.3.2

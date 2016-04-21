@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: org.apache.axis2.mex
+Bundle-Name: org.apache.axis2.mex
+Bundle-Version: 1.5.4
+DynamicImport-Package: javax.transaction;version="1.1",javax.transacti
+ on.xa;version="1.1",*
+Bundle-ClassPath: mex-1.5.4-impl.jar
+Export-Package: org.apache.axis2.mex;version=1.5.4,org.apache.axis2.me
+ x.om;version=1.5.4,org.apache.axis2.mex.util;version=1.5.4

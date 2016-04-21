@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: cglib.cglib
+Bundle-Name: cglib.cglib
+Bundle-Version: 2.2.0
+DynamicImport-Package: javax.transaction;version="1.1",javax.transacti
+ on.xa;version="1.1",*
+Bundle-ClassPath: cglib-2.2.jar
+Export-Package: net.sf.cglib.proxy;version=2.2.0,net.sf.cglib.transfor
+ m;version=2.2.0,net.sf.cglib.reflect;version=2.2.0,net.sf.cglib.util;
+ version=2.2.0,net.sf.cglib.beans;version=2.2.0,net.sf.cglib.transform
+ .impl;version=2.2.0,net.sf.cglib.core;version=2.2.0

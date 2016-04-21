@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: commons-discovery.commons-discovery
+Bundle-Name: commons-discovery.commons-discovery
+Bundle-Version: 0.4.0
+DynamicImport-Package: javax.transaction;version="1.1",javax.transacti
+ on.xa;version="1.1",*
+Bundle-ClassPath: commons-discovery-0.4.jar
+Export-Package: org.apache.commons.discovery.resource.classes;version=
+ 0.4.0,org.apache.commons.discovery.log;version=0.4.0,org.apache.commo
+ ns.discovery.resource;version=0.4.0,org.apache.commons.discovery.jdk;
+ version=0.4.0,org.apache.commons.discovery.ant;version=0.4.0,org.apac
+ he.commons.discovery;version=0.4.0,org.apache.commons.discovery.tools
+ ;version=0.4.0,org.apache.commons.discovery.resource.names;version=0.
+ 4.0

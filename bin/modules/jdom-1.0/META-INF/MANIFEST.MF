@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: jdom.jdom
+Bundle-Name: jdom.jdom
+Bundle-Version: 1.0.0
+DynamicImport-Package: javax.transaction;version="1.1",javax.transacti
+ on.xa;version="1.1",*
+Bundle-ClassPath: jdom-1.0.jar
+Export-Package: org.jdom.xpath;version=1.0.0,org.jdom.adapters;version
+ =1.0.0,org.jdom;version=1.0.0,org.jdom.transform;version=1.0.0,org.jd
+ om.input;version=1.0.0,org.jdom.filter;version=1.0.0,org.jdom.output;
+ version=1.0.0

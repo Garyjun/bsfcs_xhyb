@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: net.sourceforge.serp.serp
+Bundle-Name: net.sourceforge.serp.serp
+Bundle-Version: 1.13.1
+DynamicImport-Package: javax.transaction;version="1.1",javax.transacti
+ on.xa;version="1.1",*
+Bundle-ClassPath: serp-1.13.1.jar
+Export-Package: serp.bytecode;version=1.13.1,serp.util;version=1.13.1,
+ serp.bytecode.lowlevel;version=1.13.1,serp.bytecode.visitor;version=1
+ .13.1

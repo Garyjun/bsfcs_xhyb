@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: org.objectweb.howl.howl
+Bundle-Name: org.objectweb.howl.howl
+Bundle-Version: 1.0.1
+DynamicImport-Package: javax.transaction;version="1.1",javax.transacti
+ on.xa;version="1.1",*
+Bundle-ClassPath: howl-1.0.1-1.jar
+Export-Package: org.objectweb.howl.log.xa;version=1.0.1,org.objectweb.
+ howl.log;version=1.0.1,org.objectweb.howl.log.util;version=1.0.1

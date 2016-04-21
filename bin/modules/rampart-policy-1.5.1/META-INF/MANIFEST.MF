@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: org.apache.rampart.rampart-policy
+Bundle-Name: org.apache.rampart.rampart-policy
+Bundle-Version: 1.5.1
+DynamicImport-Package: javax.transaction;version="1.1",javax.transacti
+ on.xa;version="1.1",*
+Bundle-ClassPath: rampart-policy-1.5.1.jar
+Export-Package: org.apache.ws.secpolicy;version=1.5.1,org.apache.ws.se
+ cpolicy12.builders;version=1.5.1,META-INF.services;partial=true;manda
+ tory:=partial,org.apache.ws.secpolicy.model;version=1.5.1,org.apache.
+ ws.secpolicy11.builders;version=1.5.1

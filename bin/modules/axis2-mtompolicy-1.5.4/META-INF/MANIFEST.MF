@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: org.apache.axis2.axis2-mtompolicy
+Bundle-Name: org.apache.axis2.axis2-mtompolicy
+Bundle-Version: 1.5.4
+DynamicImport-Package: javax.transaction;version="1.1",javax.transacti
+ on.xa;version="1.1",*
+Bundle-ClassPath: axis2-mtompolicy-1.5.4.jar
+Export-Package: META-INF.services;partial=true;mandatory:=partial,org.
+ apache.axis2.policy.builders;version=1.5.4,org.apache.axis2.policy.mo
+ del;version=1.5.4

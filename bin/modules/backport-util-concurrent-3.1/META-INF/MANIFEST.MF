@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: backport-util-concurrent.backport-util-concurrent
+Bundle-Name: backport-util-concurrent.backport-util-concurrent
+Bundle-Version: 3.1.0
+DynamicImport-Package: javax.transaction;version="1.1",javax.transacti
+ on.xa;version="1.1",*
+Bundle-ClassPath: backport-util-concurrent-3.1.jar
+Export-Package: edu.emory.mathcs.backport.java.util.concurrent.locks;v
+ ersion=3.1.0,edu.emory.mathcs.backport.java.util.concurrent.helpers;v
+ ersion=3.1.0,edu.emory.mathcs.backport.java.util.concurrent;version=3
+ .1.0,edu.emory.mathcs.backport.java.util.concurrent.atomic;version=3.
+ 1.0,edu.emory.mathcs.backport.java.util;version=3.1.0

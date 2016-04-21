@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<composite xmlns="http://docs.oasis-open.org/ns/opencsa/sca/200912"
+           xmlns:tuscany="http://tuscany.apache.org/xmlns/sca/1.1"
+           targetNamespace="http://prod"
+           name="fcs-contribution">
+    
+    <component name="FileServiceComponent">
+        <implementation.java class="com.brainsoon.fileService.sca.impl.FileServiceSCA"/>
+        <service name="IFileServiceSCA" >
+            <tuscany:binding.rest uri="http://0.0.0.0:8099/fileService">
+	            <tuscany:wireFormat.json />
+    	    </tuscany:binding.rest>
+        </service>
+    </component>
+    
+    
+</composite>

@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: jaxen.jaxen
+Bundle-Name: jaxen.jaxen
+Bundle-Version: 1.1.1
+DynamicImport-Package: javax.transaction;version="1.1",javax.transacti
+ on.xa;version="1.1",*
+Bundle-ClassPath: jaxen-1.1.1.jar
+Export-Package: org.jaxen.xom;version=1.1.1,org.jaxen.dom4j;version=1.
+ 1.1,org.jaxen.util;version=1.1.1,org.jaxen.function.xslt;version=1.1.
+ 1,org.jaxen.javabean;version=1.1.1,org.jaxen.saxpath.helpers;version=
+ 1.1.1,org.jaxen.saxpath.base;version=1.1.1,org.jaxen.expr.iter;versio
+ n=1.1.1,org.jaxen.function;version=1.1.1,org.jaxen.dom;version=1.1.1,
+ org.jaxen.expr;version=1.1.1,org.jaxen.function.ext;version=1.1.1,org
+ .jaxen.jdom;version=1.1.1,org.jaxen.pattern;version=1.1.1,org.jaxen.s
+ axpath;version=1.1.1,org.jaxen;version=1.1.1

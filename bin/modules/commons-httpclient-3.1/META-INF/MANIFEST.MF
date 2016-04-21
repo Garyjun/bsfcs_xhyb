@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: commons-httpclient.commons-httpclient
+Bundle-Name: commons-httpclient.commons-httpclient
+Bundle-Version: 3.1.0
+DynamicImport-Package: javax.transaction;version="1.1",javax.transacti
+ on.xa;version="1.1",*
+Bundle-ClassPath: commons-httpclient-3.1.jar
+Export-Package: org.apache.commons.httpclient.methods;version=3.1.0,or
+ g.apache.commons.httpclient.util;version=3.1.0,org.apache.commons.htt
+ pclient.cookie;version=3.1.0,org.apache.commons.httpclient.params;ver
+ sion=3.1.0,org.apache.commons.httpclient.auth;version=3.1.0,org.apach
+ e.commons.httpclient.protocol;version=3.1.0,org.apache.commons.httpcl
+ ient.methods.multipart;version=3.1.0,org.apache.commons.httpclient;ve
+ rsion=3.1.0

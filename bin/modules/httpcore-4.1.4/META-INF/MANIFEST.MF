@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: org.apache.httpcomponents.httpcore
+Bundle-Name: org.apache.httpcomponents.httpcore
+Bundle-Version: 4.1.4
+DynamicImport-Package: javax.transaction;version="1.1",javax.transacti
+ on.xa;version="1.1",*
+Bundle-ClassPath: httpcore-4.1.4.jar
+Export-Package: org.apache.http.message;version=4.1.4,org.apache.http.
+ protocol;version=4.1.4,org.apache.http.entity;version=4.1.4,org.apach
+ e.http.util;version=4.1.4,org.apache.http.impl.io;version=4.1.4,org.a
+ pache.http.io;version=4.1.4,org.apache.http.impl;version=4.1.4,org.ap
+ ache.http.impl.entity;version=4.1.4,org.apache.http.params;version=4.
+ 1.4,org.apache.http;version=4.1.4

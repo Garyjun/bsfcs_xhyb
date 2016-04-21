@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="com.brainsoon.fileService.po.SolrQueue" table="solr_queue">
+        <id name="id" type="java.lang.Long">
+            <column name="id" />
+            <generator class="native" />
+        </id>
+        <property name="resId" type="java.lang.String">
+        	<column name="res_id"/>
+        </property>
+         <property name="actions" type="java.lang.String">
+        	<column name="actions"/>
+        </property>
+        <property name="status" type="java.lang.String">
+        	<column name="status"/>
+        </property>
+        <property name="createTime" type="java.sql.Date">
+        	<column name="create_time"/>
+        </property>
+    </class>
+</hibernate-mapping>

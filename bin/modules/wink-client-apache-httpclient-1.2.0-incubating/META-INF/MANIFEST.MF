@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: org.apache.wink.wink-client-apache-httpclient
+Bundle-Name: org.apache.wink.wink-client-apache-httpclient
+Bundle-Version: 1.2.0.incubating
+DynamicImport-Package: javax.transaction;version="1.1",javax.transacti
+ on.xa;version="1.1",*
+Bundle-ClassPath: wink-client-apache-httpclient-1.2.0-incubating.jar
+Export-Package: org.apache.wink.client.httpclient;version=1.2.0.incuba
+ ting,org.apache.wink.client.internal.handlers.httpclient;version=1.2.
+ 0.incubating,org.apache.wink.client;version=1.2.0.incubating

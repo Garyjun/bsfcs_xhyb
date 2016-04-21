@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: org.apache.ode.ode-bpel-store
+Bundle-Name: org.apache.ode.ode-bpel-store
+Bundle-Version: 1.3.2
+DynamicImport-Package: javax.transaction;version="1.1",javax.transacti
+ on.xa;version="1.1",*
+Bundle-ClassPath: ode-bpel-store-1.3.2.jar
+Export-Package: org.apache.ode.store.jpa;version=1.3.2,org.apache.ode.
+ store;version=1.3.2,org.apache.ode.store.hib;version=1.3.2

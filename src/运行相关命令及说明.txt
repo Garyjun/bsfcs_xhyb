@@ -1,0 +1,60 @@
+-- Office路径及启动命令
+
+-- LibreOffice4路径: 
+
+D:/home/hsjc/appserver/LibreOffice4/program
+
+C:/Program Files/LibreOffice 4/program
+
+-- Office启动命令:
+
+soffice -headless -accept="socket,host=127.0.0.1,port=8100;urp;" -nofirststartwizard
+
+-- JAR服务启动命令：
+java -jar -Xmn16m -Xms512m -Xmx1024m bsfw_fcs.jar
+
+
+
+-- 查询失败记录SQL：
+
+-- 第一步：先查询-导出到SQL脚本
+SET @str1:= '%但更新到RDF元数据失败%';
+SET @str2:= '%但上传到远程映射盘失败%';
+SET @str3:= '%Adding text to an XML document must%';
+SET @str4:= '%{失败}-原因未捕获到%';
+SET @str5:= '%could not load document%';
+SET @str6:= '%{失败}-文件未下载成功%';
+SET @str7:= '%could not connect to external office process%';
+SELECT res_converfile_task.`resId`,res_converfile_task.`srcPath`,res_converfile_task.`tarPath`,
+res_converfile_task.`doHasType`,res_converfile_task.`fileType`,res_converfile_task.`txtStr` 
+FROM `res_converfile_task_history` res_converfile_task 
+WHERE res_converfile_task.`describes` LIKE @str1 
+OR res_converfile_task.`describes` LIKE @str2
+OR res_converfile_task.`describes` LIKE @str3
+OR res_converfile_task.`describes` LIKE @str4
+OR res_converfile_task.`describes` LIKE @str5
+OR res_converfile_task.`describes` LIKE @str6
+OR res_converfile_task.`describes` LIKE @str7;
+-- 第二步:执行导出的脚本
+
+-- 第三步:删除相关的记录
+DELETE FROM `res_converfile_task_history` 
+WHERE `describes` LIKE @str1
+OR `describes` LIKE @str2
+OR `describes` LIKE @str3
+OR `describes` LIKE @str4
+OR `describes` LIKE @str5
+OR `describes` LIKE @str6
+OR `describes` LIKE @str7;
+
+-- 清库SQL
+
+UPDATE `res_converfile_task` SET STATUS = 0;
+UPDATE `res_converfile_task` SET retryNum = 0;
+UPDATE `res_converfile_task` SET describes = NULL;
+UPDATE `res_converfile_task` SET doResultType = NULL;
+UPDATE `res_converfile_task` SET imgStauts = 0;
+UPDATE `res_converfile_task` SET txtStauts = 0;
+UPDATE `res_converfile_task` SET imgDoStauts = 0;
+UPDATE `res_converfile_task` SET txtDoStauts = 0;
+UPDATE `res_converfile_task` SET TIMESTAMP = NULL;

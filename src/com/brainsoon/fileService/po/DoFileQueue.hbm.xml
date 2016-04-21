@@ -1,0 +1,125 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="com.brainsoon.fileService.po.DoFileQueue" table="dofile_queue">
+        <id name="id" type="java.lang.Long">
+            <column name="id" />
+            <generator class="native" />
+        </id>
+        <property name="resId" type="java.lang.String">
+        	<column name="resId"/>
+        </property>
+         <property name="objectId" type="java.lang.String">
+        	<column name="objectId"/>
+        </property>
+        <property name="srcPath" type="java.lang.String">
+        	<column name="srcPath"/>
+        </property>
+        <property name="fileId" type="java.lang.String">
+        	<column name="fileId"/>
+        </property>
+        <property name="fileFormat" type="java.lang.String">
+        	<column name="file_format"/>
+        </property>
+        <property name="pendingType" type="java.lang.String">
+        	<column name="pending_type"/>
+        </property>
+        <property name="stautsExtractMatedata" type="java.lang.Integer">
+        	<column name="stauts_extract_matedata"/>
+        </property>
+        <property name="statusConvered" type="java.lang.Integer">
+        	<column name="status_convered"/>
+        </property>
+        <property name="stautsExtractImage" type="java.lang.Integer">
+        	<column name="stauts_extract_image"/>
+        </property>
+        <property name="stautsExtractTxt" type="java.lang.Integer">
+        	<column name="stauts_extract_txt"/>
+        </property>
+        <property name="resultConveredfilePath" type="java.lang.String">
+        	<column name="result_converedfile_path"/>
+        </property>
+        <property name="resultTxt" type="java.lang.String">
+        	<column name="result_txt"/>
+        </property>
+        <property name="resultMatedata" type="java.lang.String">
+        	<column name="result_matedata"/>
+        </property>
+        <property name="resultImagePath" type="java.lang.String">
+        	<column name="result_image_path"/>
+        </property>
+        <property name="actionConveredfileUrl" type="java.lang.String">
+        	<column name="action_converedfile_url"/>
+        </property>
+        <property name="actionTxtUrl" type="java.lang.String">
+        	<column name="action_txt_url"/>
+        </property>
+        <property name="actionMatedataUrl" type="java.lang.String">
+        	<column name="action_matedata_url"/>
+        </property>
+        <property name="actionImageUrl" type="java.lang.String">
+        	<column name="action_image_url"/>
+        </property>
+        <property name="syncStautsMatedata" type="java.lang.Integer">
+        	<column name="sync_stauts_matedata"/>
+        </property>
+        <property name="syncStautsConvered" type="java.lang.Integer">
+        	<column name="sync_stauts_convered"/>
+        </property>
+        <property name="syncStautsImage" type="java.lang.Integer">
+        	<column name="sync_stauts_image"/>
+        </property>
+        <property name="syncStautsTxt" type="java.lang.Integer">
+        	<column name="sync_stauts_txt"/>
+        </property>
+        <property name="retryNum" type="java.lang.Integer">
+        	<column name="retryNum"/>
+        </property>
+        <property name="describes" type="java.lang.String">
+        	<column name="describes"/>
+        </property>
+        <property name="timestamp" type="java.lang.String">
+        	<column name="timestamp"/>
+        </property>
+        <property name="platformId" type="java.lang.Integer">
+        	<column name="platformId"/>
+        </property>
+        <property name="priority" type="java.lang.Integer">
+        	<column name="priority"/>
+        </property>
+        <property name="createTime" type="java.lang.String">
+        	<column name="createTime"/>
+        </property>
+        <property name="updateTime" type="java.lang.String">
+        	<column name="updateTime"/>
+        </property>
+        <property name="imageWH" type="java.lang.String">
+        	<column name="imageWH"/>
+        </property>
+        <property name="txtName" type="java.lang.String">
+        	<column name="txtName"/>
+        </property>
+        <property name="fontSize" type="java.lang.String">
+        	<column name="fontSize"/>
+        </property>
+        <property name="fontName" type="java.lang.String">
+        	<column name="fontName"/>
+        </property>
+        <property name="position" type="java.lang.String">
+        	<column name="position"/>
+        </property>
+        <property name="color" type="java.lang.String">
+        	<column name="color"/>
+        </property>
+        <property name="isBold" type="java.lang.String">
+        	<column name="isBold"/>
+        </property>
+        <property name="alpha" type="java.lang.String">
+        	<column name="alpha"/>
+        </property>
+        <property name="wmImage" type="java.lang.String">
+        	<column name="wmImage"/>
+        </property>
+    </class>
+</hibernate-mapping>

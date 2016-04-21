@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: org.apache.rampart.rampart-trust
+Bundle-Name: org.apache.rampart.rampart-trust
+Bundle-Version: 1.5.1
+DynamicImport-Package: javax.transaction;version="1.1",javax.transacti
+ on.xa;version="1.1",*
+Bundle-ClassPath: rampart-trust-1.5.1.jar
+Export-Package: org.apache.rahas.impl.util;version=1.5.1,org.apache.ra
+ has.impl;version=1.5.1,org.apache.rahas.client;version=1.5.1,org.apac
+ he.rahas;version=1.5.1

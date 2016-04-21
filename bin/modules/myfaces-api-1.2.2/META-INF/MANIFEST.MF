@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: org.apache.myfaces.core.myfaces-api
+Bundle-Name: org.apache.myfaces.core.myfaces-api
+Bundle-Version: 1.2.2
+DynamicImport-Package: javax.transaction;version="1.1",javax.transacti
+ on.xa;version="1.1",*
+Bundle-ClassPath: myfaces-api-1.2.2.jar
+Export-Package: javax.faces.render;version=1.2.2,javax.faces;version=1
+ .2.2,javax.faces.convert;version=1.2.2,javax.faces.webapp;version=1.2
+ .2,javax.faces.model;version=1.2.2,javax.faces.validator;version=1.2.
+ 2,javax.faces.event;version=1.2.2,javax.faces.component.html;version=
+ 1.2.2,javax.faces.context;version=1.2.2,javax.faces.lifecycle;version
+ =1.2.2,javax.faces.el;version=1.2.2,javax.faces.application;version=1
+ .2.2,javax.faces.component;version=1.2.2

@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: org.apache.rampart.rampart-core
+Bundle-Name: org.apache.rampart.rampart-core
+Bundle-Version: 1.5.1
+DynamicImport-Package: javax.transaction;version="1.1",javax.transacti
+ on.xa;version="1.1",*
+Bundle-ClassPath: rampart-core-1.5.1.jar
+Export-Package: org.apache.rampart;version=1.5.1,org.apache.rampart.ha
+ ndler;version=1.5.1,META-INF.services;partial=true;mandatory:=partial
+ ,org.apache.rampart.policy.model;version=1.5.1,org.apache.rampart.pol
+ icy.builders;version=1.5.1,org.apache.rampart.handler.config;version=
+ 1.5.1,org.apache.rampart.util;version=1.5.1,org.apache.rampart.builde
+ r;version=1.5.1,org.apache.rampart.policy;version=1.5.1

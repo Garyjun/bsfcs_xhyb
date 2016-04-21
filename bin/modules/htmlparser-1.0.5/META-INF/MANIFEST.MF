@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: nu.validator.htmlparser.htmlparser
+Bundle-Name: nu.validator.htmlparser.htmlparser
+Bundle-Version: 1.0.5
+DynamicImport-Package: javax.transaction;version="1.1",javax.transacti
+ on.xa;version="1.1",*
+Bundle-ClassPath: htmlparser-1.0.5.jar
+Export-Package: nu.validator.htmlparser.common;version=1.0.5,nu.valida
+ tor.htmlparser.sax;version=1.0.5,nu.validator.htmlparser.dom;version=
+ 1.0.5,nu.validator.htmlparser.xom;version=1.0.5,nu.validator.saxtree;
+ version=1.0.5,nu.validator.htmlparser.impl;version=1.0.5

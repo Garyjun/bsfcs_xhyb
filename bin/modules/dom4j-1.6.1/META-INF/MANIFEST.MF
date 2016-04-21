@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: dom4j.dom4j
+Bundle-Name: dom4j.dom4j
+Bundle-Version: 1.6.1
+DynamicImport-Package: javax.transaction;version="1.1",javax.transacti
+ on.xa;version="1.1",*
+Bundle-ClassPath: dom4j-1.6.1.jar
+Export-Package: org.dom4j.rule.pattern;version=1.6.1,org.dom4j.jaxb;ve
+ rsion=1.6.1,org.dom4j.tree;version=1.6.1,org.dom4j.dtd;version=1.6.1,
+ org.dom4j.swing;version=1.6.1,org.dom4j.datatype;version=1.6.1,org.do
+ m4j.util;version=1.6.1,org.dom4j;version=1.6.1,org.dom4j.io;version=1
+ .6.1,org.dom4j.bean;version=1.6.1,org.dom4j.rule;version=1.6.1,org.do
+ m4j.dom;version=1.6.1,org.dom4j.xpp;version=1.6.1,org.dom4j.xpath;ver
+ sion=1.6.1

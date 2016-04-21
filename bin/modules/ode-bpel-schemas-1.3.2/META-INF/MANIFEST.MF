@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: org.apache.ode.ode-bpel-schemas
+Bundle-Name: org.apache.ode.ode-bpel-schemas
+Bundle-Version: 1.3.2
+DynamicImport-Package: javax.transaction;version="1.1",javax.transacti
+ on.xa;version="1.1",*
+Bundle-ClassPath: ode-bpel-schemas-1.3.2.jar
+Export-Package: org.apache.ode.bpel.pmapi;version=1.3.2,org.apache.ode
+ .bpel.dd.impl;version=1.3.2,schemaorg_apache_xmlbeans.system.sA3282FD
+ FA2BEFFD74322748498F82309;version=1.3.2,org.apache.ode.bpel.pmapi.imp
+ l;version=1.3.2,org.apache.ode.bpel.dd;version=1.3.2

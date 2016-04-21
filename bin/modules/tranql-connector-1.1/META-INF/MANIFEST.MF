@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: tranql.tranql-connector
+Bundle-Name: tranql.tranql-connector
+Bundle-Version: 1.1.0
+DynamicImport-Package: javax.transaction;version="1.1",javax.transacti
+ on.xa;version="1.1",*
+Bundle-ClassPath: tranql-connector-1.1.jar
+Export-Package: org.tranql.connector;version=1.1.0,org.tranql.connecto
+ r.jdbc;version=1.1.0

@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: commons-digester.commons-digester
+Bundle-Name: commons-digester.commons-digester
+Bundle-Version: 1.8.0
+DynamicImport-Package: javax.transaction;version="1.1",javax.transacti
+ on.xa;version="1.1",*
+Bundle-ClassPath: commons-digester-1.8.jar
+Export-Package: org.apache.commons.digester.xmlrules;version=1.8.0,org
+ .apache.commons.digester;version=1.8.0,org.apache.commons.digester.pl
+ ugins.strategies;version=1.8.0,org.apache.commons.digester.substituti
+ on;version=1.8.0,org.apache.commons.digester.parser;version=1.8.0,org
+ .apache.commons.digester.plugins;version=1.8.0

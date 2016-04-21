@@ -1,0 +1,14 @@
+#Fat Jar Configuration File
+#Mon Mar 18 14:24:53 CST 2013
+onejar.license.required=true
+manifest.classpath=
+manifest.removesigners=true
+onejar.checkbox=false
+jarname=SCDC_fat.jar
+manifest.mergeall=true
+manifest.mainclass=com.brainsoon.command.CompLaunch
+manifest.file=src\\MANIFEST.MF
+jarname.isextern=false
+onejar.expand=
+excludes=
+includes=

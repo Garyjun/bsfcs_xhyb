@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: org.apache.ode.ode-jacob-ap
+Bundle-Name: org.apache.ode.ode-jacob-ap
+Bundle-Version: 1.3.2
+DynamicImport-Package: javax.transaction;version="1.1",javax.transacti
+ on.xa;version="1.1",*
+Bundle-ClassPath: ode-jacob-ap-1.3.2.jar
+Export-Package: org.apache.ode.jacob.ap;version=1.3.2,META-INF.service
+ s;partial=true;mandatory:=partial
